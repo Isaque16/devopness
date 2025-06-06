@@ -1,5 +1,21 @@
 # @devopness/sdk-python
 
+## 1.1.5
+
+### Patch Changes
+
+- [#1788](https://github.com/devopness/devopness/pull/1788) [`5337e87`](https://github.com/devopness/devopness/commit/5337e87e0985ef98925f2b556bd0ed119cbd384b) Thanks [@Diegiwg](https://github.com/Diegiwg)! - Improved how enum values (like hook types) appear when used in strings.
+  For example, when building URLs or printing values, you'll now see `"incoming"` instead of something like `"HookTypeParam.INCOMING"`.
+
+  This makes the SDK easier to use and outputs cleaner, more expected values in logs, strings, and requests.
+
+## 1.1.4
+
+### Patch Changes
+
+- [#1786](https://github.com/devopness/devopness/pull/1786) [`0c52385`](https://github.com/devopness/devopness/commit/0c52385346df92b1c6cffc9452f5944057bb96e4) Thanks [@Diegiwg](https://github.com/Diegiwg)! - Updated SDK methods that accept `hook_type` to use the `HookTypeParam` enum instead of plain strings.
+  This change clearly defines the allowed values for this field, reducing the likelihood of user errors.
+
 ## 1.1.3
 
 ### Patch Changes
